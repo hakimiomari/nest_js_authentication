@@ -6,6 +6,9 @@
 
 # See the documentation for all the connection string options: https://pris.ly/d/connection-strings
 
-ACCESS_TOKEN_KEY=ACCESS_TOKEN_SUPER_KEY
-REFRESH_TOKEN_KEY=REFRESH_TOKEN_SUPER_KEY
 DATABASE_URL="postgresql://postgres:Kam@22@Ran@localhost:5432/test_db?schema=public"
+ACCESS_TOKEN_KEY=ACCESS_TOKEN_SUPER_KEY
+ACCESS_TOKEN_EXPIRED_TIME=15m
+
+REFRESH_TOKEN_KEY=REFRESH_TOKEN_SUPER_KEY
+REFRESH_TOKEN_EXPIRED_TIME=15d
